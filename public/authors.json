@@ -1,0 +1,70 @@
+
+[{
+    "name": "José de Sousa Saramago",
+    "country": "Portugal",
+    "about": " Portuguese writer and recipient of the 1998 Nobel Prize in Literature. His works, some of which can be seen as allegories, commonly present subversive perspectives on historic events, emphasizing the human factor.(source: wikipedia)",
+    "born": 1968,
+    "books": [{
+      "title": "The Year of the Death of Ricardo Reis",
+      "year": 1984
+    }, {
+      "title": "Blindness",
+      "year": 1995
+    }, {
+      "title": "Death with Interruptions",
+      "year": 2005
+    }, {
+      "title": "Cain",
+      "year": 2009
+    }]
+  }, {
+    "name": "Karl Ove Knausgaard",
+    "country": "Norway",
+    "about": "Knausgård made his publishing debut in 1998 with the novel Out of the World, for which he was awarded the Norwegian Critics Prize for Literature. (source: wikipedia)",
+    "born": 1968,
+    "books": [{
+      "title": "Out of the World",
+      "year": 1998
+    }, {
+      "title": "A Time to Every Purpose Under Heaven ",
+      "year": 2004
+    }, {
+      "title": "My Struggle",
+      "year": 2011
+    }]
+  }, {
+    "name": "Michel Houellebecq",
+    "country": "France",
+    "about": "Michel Houellebecq, born Michel Thomas, is an award-winning French author, filmmaker, and poet.(source: wikipedia)",
+    "born": 1958,
+    "books": [{
+      "title": "Whatever",
+      "year": 1994
+    }, {
+      "title": "Atomised",
+      "year": 1998
+    }, {
+      "title": "The Possibility of an Island",
+      "year": 2005
+    }, {
+      "title": "The Map and the Territory",
+      "year": 2010
+    }]
+  }, {
+    "name": "Louis-Ferdinand Céline",
+    "country": "France",
+    "about": "French novelist, pamphleteer and physician. He developed a new style of writing that modernized French literature. He remains controversial to this day because of his virulent antisemitism, Holocaust Denial and racism. (source: wikipedia)",
+    "born": 1894,
+    "books": [{
+      "title": "Journey to the End of the Night",
+      "year": 1932
+    }, {
+      "title": "Death on Credit",
+      "year": 1934
+    }, {
+      "title": "Castle to Castle",
+      "year": 1958
+    }]
+  }
+
+]

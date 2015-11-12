@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html ng-app="app">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link data-require="normalize@*" data-semver="3.0.1" rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.css" />
+  <link data-require="normalize@*" data-semver="3.0.1" rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css" />
+  <script data-require="angular.js@1.3.15" data-semver="1.3.15" src="https://code.angularjs.org/1.3.15/angular.js"></script>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js"></script>
+  <script src="services.js"></script>
+</head>
+
+<body ng-controller="main as vm">
+
+  <div class="heading">
+    <span class="left-text"><h3>Grey It Is</h3></span>
+    <span class="right-text"><h3>Book Picker</h3></span>
+  </div>
+
+  <div class="sidebar">
+    <div ng-repeat="topic in vm.topics" class="topic">
+      {{ topic }}
+    </div>
+  </div>
+
+  <div class="main">
+    <div class="search">
+      <input type="text" ng-model="vm.search" placeholder="search author or title">
+    </div>
+    <div ng-repeat="author in vm.authors | filter: vm.search" class="author">
+      <author-directive author="author"></author-directive>
+    </div>
+  </div>
+</body>
+
+</html>

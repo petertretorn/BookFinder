@@ -1,0 +1,11 @@
+<div class="main-content">
+  <h3>{{ author.name }}</h3>
+  <p ng-show="showBooks">{{ author.about }}</p>
+  <button ng-click="toggle()" ng-show="!showBooks">About</button>
+  <button ng-click="toggle()" ng-show="showBooks">Hide</button>
+</div>
+<div class="tags">
+  <div ng-repeat="book in author.books" class="tag">
+    {{ book.title }}
+  </div>
+</div>

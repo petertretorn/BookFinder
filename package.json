@@ -1,0 +1,22 @@
+{
+  "name": "bookviewer",
+  "version": "1.0.0",
+  "description": "App to find a suitable book to read",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "reponsive"
+  ],
+  "author": "Peter Larsen",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3",
+    "mongoose"   : "~4.1.0",
+    "morgan"     : "~1.2.2",
+    "body-parser": "~1.5.2",
+    "jsonwebtoken": "^5.0.2",
+    "method-override": "~2.1.2"
+  }
+}
